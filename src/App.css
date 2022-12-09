@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../public/Fonts/Poppins/Poppins-Regular.ttf);
+}
+
+.main-block {
+  padding: 210px 100px 0 0;
+}
+
+form {
+  display: flex;
+  margin: 0 80px 150px;
+}
+
+form label {
+  display: block;
+  font-size: 18px;
+  line-height: 27px;
+  color: #174348;
+}
+
+.hideToDos-block {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  margin: 0 90px 40px 0;
+}
+
+.hideToDos-label {
+  font-size: 18px;
+  line-height: 27px;
+  margin-left: 15px;
+  font-weight: 900;
+}
+
+.hideToDos-block input {
+  cursor: pointer;
+}
+
+#addTask {
+  width: 954px;
+  height: 52px;
+  border-radius: 4px;
+  border: 1px solid #FFCD04;
+  outline: none;
+  padding: 16px 13px;
+  font-size: 18px;
+}
+
+#addToDo {
+  width: 100px;
+  height: 52px;
+  border-radius: 4px;
+  background-color: #008594;
+  padding: 12px 30px;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  margin: 25px 24px 0;
+  cursor: pointer;
+}
+
+.hiddenText {
+  display: none;
+}
+
+.shownText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shownText__subtitle {
+  font-size: 24px;
+  color: #ACACAC;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+}
+
+.shownText__title {
+  font-size: 36px;
+  color: #666666;
+  line-height: 54px;
+  letter-spacing: 0.2px;
+}
+
+
+@media  screen and (max-width: 376px) {
+  .main-block {
+    padding: 195px 24px 0;
+  }
+  .hideToDos-block  {
+    margin: 0;
+    align-items: center;
+  }
+  .hideToDos-label {
+    font-size: 16px;
+    line-height: 0;
+    margin-left: 15px;
+  }
+  form {
+    flex-direction: column;
+    margin: 0;
+  }
+  #addTask {
+    width: 327px;
+    height: 44px;
+    font-size: 14px;
+  }
+  #addToDo {
+    width: 92px;
+    height: 44px;
+    padding: 8px 25px;
+    margin: 16px 0 70px 235px;
+    font-size: 14px;
+  }
+  .shownText {
+    margin-top: 120px;
+  }
+  .shownText__subtitle {
+    font-size: 14px;
+    line-height: 0;
+  }
+  .shownText__title {
+    font-size: 18px;
+  }
+}

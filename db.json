@@ -1,0 +1,20 @@
+{
+  "todos": [
+    {
+      "toDo": "Drink Coffe ",
+      "isCompleted": false,
+      "id": 1
+    },
+    {
+      "toDo": "Read Book",
+      "isCompleted": false,
+      "id": 2
+    }
+  ],
+  "settings": [
+    {
+      "isHidden": false,
+      "id": 1
+    }
+  ]
+}

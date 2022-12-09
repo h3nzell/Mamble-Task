@@ -1,0 +1,31 @@
+.hiddenTodos {
+  display: none;
+}
+
+.shownTodos {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 85px;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20px;
+}
+
+.completed-checkbox {
+  accent-color: #008594;
+}
+
+.completed {
+  font-size: 18px;
+  line-height: 32px;
+  color: #acacac;
+  margin-left: 35px;
+}
+
+.not-completed {
+  font-size: 18px;
+  line-height: 32px;
+  margin-left: 35px;
+  color: #666666;
+}
+
+  
